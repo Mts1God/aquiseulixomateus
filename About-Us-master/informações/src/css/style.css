@@ -1,0 +1,29 @@
+body {
+    background: #c4ffba;
+}
+
+.sessao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.TSA {
+    text-align: center;
+  }
+.legenda{
+    text-align: justify;
+    padding: 30px;
+    width: 650px; 
+}
+.container{
+    color: #FFFFFF;
+    font-family: "Roboto Slab", Sans-serif;
+    font-size: 94px;
+    font-weight: 600;
+    mix-blend-mode: difference;
+    
+}
+
+
