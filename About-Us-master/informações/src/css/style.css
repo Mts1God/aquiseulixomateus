@@ -3,26 +3,39 @@
 @media(max-width: 767px) {
 body{
     background: whitesmoke;
-    display: flex;
     flex-direction: column;
-    height: 100vh;
+    background-color: #e3fbe3;
+    max-width: 767px;
+    margin: 0 auto;
 }
+
+.PrimeiraParte{  
+    width: 88%;
+    background-color: gray;
+    background-color: blue;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 70%;
-    margin-left:30px;
+.FotoHeader{
+    width: 100%;
+    height: 100%;
+}
+.FotoHeader img{
+    width: 100%;
+}
+.container img{
+    background-color: black;
+    width: 80%;
+    height: 70%;  
     padding: 30px;
 }
 .titulo{
     color: #FFFFFF;
     font-family: "Roboto Slab", Sans-serif;
-    font-size:14px;
+    font-size: 13px;
     font-weight: 100;
     mix-blend-mode: difference; 
     padding: 30px;
+    width: 80%;
+    background-color: blue;
 }
 .texto{
     color: #FFFFFF;
@@ -31,20 +44,22 @@ body{
     font-weight: 100;
     mix-blend-mode: difference; 
     padding: 30px;
-    
-    
-    
-    
-    
-    
+    width: 80%;
+    background-color: blue;
 }
+}
+
+
+
+
+
 /* tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
 body{
     background: whitesmoke;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    
 }
 .container{
     display: flex;
@@ -75,7 +90,6 @@ body{
     background: whitesmoke;
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
     .container{
     display: flex;
