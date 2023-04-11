@@ -8,11 +8,8 @@ body{
     margin: 0 auto;
 }
 .FotoHeader img{
-    width: 90%;
+    width: 100%;
 }
-
-
-
 .titulo{
     color: #FFFFFF;
     font-family: "Roboto Slab", Sans-serif;
@@ -32,15 +29,29 @@ body{
     mix-blend-mode: difference;
     margin-top: 50px; 
     margin-left: 50px;
-    width: 80%;
-    
+    width: 80%; 
+}
+/* #sider relacionado a minha página inteira */
+#slider {
+    width: 100%;
+    height: 80%;
+    max-width: 900px;
+    max-height: 250px;
+    position: relative;
+}
+/* #sider relacionado a minha imagem */
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+    transition: opacity 800ms; /*opacidade da transição de imagem para imagem */
+}
+#slider img.selected { 
+    opacity: 1;
 }
 }
-
-
-
-
-
 /* tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
 body{
